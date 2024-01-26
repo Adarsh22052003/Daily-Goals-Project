@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(50, 50, 50);
+  min-height: 100vh;
+}
+form{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title,#btn,#discription{
+  margin: 10px;
+  padding: 11px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  outline: none;
+  /* background-color: rgb(123, 133, 130); */
+}
+button{
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(31, 28, 28, 0.664);
+  color: white;
+}
+.task{
+  background-color: antiquewhite;
+  margin: 10px;
+  display: flex;
+  
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.task>div{
+  width: 100%;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2px;
+}
+.task button{
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: crimson;
+}
+p{
+  font-weight: bold;
+}
+span{
+  font-size: medium;
+}
